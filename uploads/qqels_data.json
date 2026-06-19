@@ -1,0 +1,462 @@
+[
+  {
+    "levelId": 1,
+    "levelName": "Level 1: プログラミング基礎",
+    "questions": [
+      {
+        "id": 101,
+        "word": "オブジェクト指向",
+        "questionText": "オブジェクト指向プログラミングの基本概念でないものはどれですか？",
+        "options": {"A": "継承", "B": "カプセル化", "C": "多態性", "D": "直列化"},
+        "correctAnswerKey": "D",
+        "difficulty": "easy"
+      },
+      {
+        "id": 102,
+        "word": "MVC",
+        "questionText": "MVCパターンで、ユーザーインターフェースの表示を担当するのはどれですか？",
+        "options": {"A": "Model", "B": "View", "C": "Controller", "D": "ViewModel"},
+        "correctAnswerKey": "B",
+        "difficulty": "easy"
+      },
+      {
+        "id": 103,
+        "word": "リファクタリング",
+        "questionText": "リファクタリングの主な目的は何ですか？",
+        "options": {"A": "機能を追加すること", "B": "コードの可読性と保守性を向上させること", "C": "パフォーマンスを最適化すること", "D": "バグを修正すること"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 104,
+        "word": "DI",
+        "questionText": "依存性注入（DI）の利点として正しくないものはどれですか？",
+        "options": {"A": "テスト容易性の向上", "B": "結合度の低下", "C": "コンパイル時間の短縮", "D": "コードの柔軟性向上"},
+        "correctAnswerKey": "C",
+        "difficulty": "medium"
+      },
+      {
+        "id": 105,
+        "word": "Git",
+        "questionText": "Gitで、リモートリポジトリの最新情報を取得してローカルブランチに統合するコマンドはどれですか？",
+        "options": {"A": "git fetch", "B": "git pull", "C": "git merge", "D": "git rebase"},
+        "correctAnswerKey": "B",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "levelId": 2,
+    "levelName": "Level 2: データベースとSQL",
+    "questions": [
+      {
+        "id": 201,
+        "word": "正規化",
+        "questionText": "データベースの正規化の主な目的は何ですか？",
+        "options": {"A": "クエリの実行速度を向上させる", "B": "データの冗長性を排除し整合性を保つ", "C": "データベースのサイズを小さくする", "D": "バックアップ時間を短縮する"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 202,
+        "word": "トランザクション",
+        "questionText": "ACID特性に含まれないものはどれですか？",
+        "options": {"A": "原子性", "B": "一貫性", "C": "分離性", "D": "可用性"},
+        "correctAnswerKey": "D",
+        "difficulty": "medium"
+      },
+      {
+        "id": 203,
+        "word": "インデックス",
+        "questionText": "データベースのインデックスに関する説明で正しいものはどれですか？",
+        "options": {"A": "常にクエリ性能を向上させる", "B": "INSERT操作の性能も向上させる", "C": "適切に使用するとSELECTクエリの性能を向上させる", "D": "テーブルサイズを減少させる"},
+        "correctAnswerKey": "C",
+        "difficulty": "medium"
+      },
+      {
+        "id": 204,
+        "word": "JOIN",
+        "questionText": "SQLのINNER JOINとOUTER JOINの違いについて正しい説明はどれですか？",
+        "options": {"A": "INNER JOINは結合条件に一致しない行も含む", "B": "OUTER JOINは結合条件に一致しない行も含む", "C": "両方とも結合条件に一致しない行を含む", "D": "両方とも結合条件に一致する行のみ含む"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 205,
+        "word": "NoSQL",
+        "questionText": "NoSQLデータベースの特徴として正しくないものはどれですか？",
+        "options": {"A": "スキーマレス", "B": "水平スケーラビリティ", "C": "厳密なACID特性", "D": "柔軟なデータモデル"},
+        "correctAnswerKey": "C",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "levelId": 3,
+    "levelName": "Level 3: Web開発",
+    "questions": [
+      {
+        "id": 301,
+        "word": "REST API",
+        "questionText": "RESTful APIの設計原則でないものはどれですか？",
+        "options": {"A": "ステートレスな通信", "B": "統一されたインターフェース", "C": "クライアント側セッション管理", "D": "リソースベースの設計"},
+        "correctAnswerKey": "C",
+        "difficulty": "medium"
+      },
+      {
+        "id": 302,
+        "word": "HTTPステータスコード",
+        "questionText": "リソースが正常に作成されたことを示すHTTPステータスコードはどれですか？",
+        "options": {"A": "200 OK", "B": "201 Created", "C": "204 No Content", "D": "400 Bad Request"},
+        "correctAnswerKey": "B",
+        "difficulty": "easy"
+      },
+      {
+        "id": 303,
+        "word": "CookieとSession",
+        "questionText": "CookieとSessionの違いについて正しい説明はどれですか？",
+        "options": {"A": "Cookieはサーバー側、Sessionはクライアント側に保存される", "B": "Cookieはクライアント側、Sessionはサーバー側に保存される", "C": "両方ともクライアント側に保存される", "D": "両方ともサーバー側に保存される"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 304,
+        "word": "クロスサイトスクリプティング",
+        "questionText": "XSS（クロスサイトスクリプティング）攻撃を防ぐための対策でないものはどれですか？",
+        "options": {"A": "入力値のバリデーション", "B": "出力値のエスケープ", "C": "HTTPSの使用", "D": "Content Security Policyの実装"},
+        "correctAnswerKey": "C",
+        "difficulty": "hard"
+      },
+      {
+        "id": 305,
+        "word": "SPA",
+        "questionText": "シングルページアプリケーション（SPA）の特徴として正しいものはどれですか？",
+        "options": {"A": "ページ遷移のたびにサーバーからHTMLを取得する", "B": "初期読み込み後はクライアント側でレンダリングを行う", "C": "SEOに強い", "D": "初期読み込み時間が短い"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "levelId": 4,
+    "levelName": "Level 4: クラウドとインフラ",
+    "questions": [
+      {
+        "id": 401,
+        "word": "マイクロサービス",
+        "questionText": "マイクロサービスアーキテクチャの利点でないものはどれですか？",
+        "options": {"A": "各サービスの独立したデプロイ", "B": "技術スタックの統一", "C": "スケーラビリティの向上", "D": "障害の分離"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 402,
+        "word": "コンテナ",
+        "questionText": "Dockerコンテナの特徴として正しいものはどれですか？",
+        "options": {"A": "各コンテナは独立したカーネルを持つ", "B": "仮想マシンより起動が遅い", "C": "ホストOSのカーネルを共有する", "D": "ハイパーバイザーが必要"},
+        "correctAnswerKey": "C",
+        "difficulty": "medium"
+      },
+      {
+        "id": 403,
+        "word": "CI/CD",
+        "questionText": "CI/CDパイプラインの目的として正しくないものはどれですか？",
+        "options": {"A": "手動デプロイの削減", "B": "ソフトウェア品質の向上", "C": "開発サイクルの短縮", "D": "ドキュメント作成の自動化"},
+        "correctAnswerKey": "D",
+        "difficulty": "easy"
+      },
+      {
+        "id": 404,
+        "word": "サーバーレス",
+        "questionText": "サーバーレスアーキテクチャの特徴として正しいものはどれですか？",
+        "options": {"A": "サーバー管理が不要", "B": "常時実行される", "C": "スケーリングの手動設定が必要", "D": "コールドスタートの問題がない"},
+        "correctAnswerKey": "A",
+        "difficulty": "medium"
+      },
+      {
+        "id": 405,
+        "word": "IaC",
+        "questionText": "Infrastructure as Code（IaC）の利点でないものはどれですか？",
+        "options": {"A": "インフラ構成のバージョン管理", "B": "手動設定の再現性向上", "C": "インフラコストの削減", "D": "構成の一貫性確保"},
+        "correctAnswerKey": "C",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "levelId": 5,
+    "levelName": "Level 5: セキュリティ",
+    "questions": [
+      {
+        "id": 501,
+        "word": "SQLインジェクション",
+        "questionText": "SQLインジェクション攻撃を防ぐ最も効果的な方法はどれですか？",
+        "options": {"A": "ファイアウォールの設定", "B": "プリペアドステートメントの使用", "C": "パスワードの複雑化", "D": "SSL/TLSの導入"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 502,
+        "word": "暗号化",
+        "questionText": "パスワードの保存に適切な方法はどれですか？",
+        "options": {"A": "平文で保存", "B": "対称鍵暗号で暗号化", "C": "ハッシュ関数でハッシュ化", "D": "Base64でエンコード"},
+        "correctAnswerKey": "C",
+        "difficulty": "easy"
+      },
+      {
+        "id": 503,
+        "word": "OAuth",
+        "questionText": "OAuth 2.0の主な目的は何ですか？",
+        "options": {"A": "データの暗号化", "B": "ユーザー認証", "C": "リソースへの委任されたアクセス権限の付与", "D": "セッション管理"},
+        "correctAnswerKey": "C",
+        "difficulty": "hard"
+      },
+      {
+        "id": 504,
+        "word": "CSRF",
+        "questionText": "CSRF（クロスサイトリクエストフォージェリ）攻撃を防ぐ方法でないものはどれですか？",
+        "options": {"A": "CAPTCHAの使用", "B": "CSRFトークンの使用", "C": "SameSite Cookie属性の設定", "D": "入力値のバリデーション"},
+        "correctAnswerKey": "D",
+        "difficulty": "medium"
+      },
+      {
+        "id": 505,
+        "word": "HTTPS",
+        "questionText": "HTTPSがHTTPより優れている点はどれですか？",
+        "options": {"A": "データ転送速度", "B": "データの暗号化と完全性", "C": "サーバーパフォーマンス", "D": "キャッシュ効率"},
+        "correctAnswerKey": "B",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "levelId": 6,
+    "levelName": "Level 6: 設計とアーキテクチャ",
+    "questions": [
+      {
+        "id": 601,
+        "word": "デザインパターン",
+        "questionText": "Singletonパターンの主な目的は何ですか？",
+        "options": {"A": "オブジェクトの生成を委任する", "B": "クラスのインスタンスを1つに制限する", "C": "アルゴリズムをカプセル化する", "D": "オブジェクト間の依存関係を減少させる"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 602,
+        "word": "SOLID原則",
+        "questionText": "SOLID原則に含まれないものはどれですか？",
+        "options": {"A": "単一責任の原則", "B": "開放閉鎖の原則", "C": "依存性逆転の原則", "D": "カプセル化の原則"},
+        "correctAnswerKey": "D",
+        "difficulty": "hard"
+      },
+      {
+        "id": 603,
+        "word": "ドメイン駆動設計",
+        "questionText": "DDD（ドメイン駆動設計）における「ユビキタス言語」の説明で正しいものはどれですか？",
+        "options": {"A": "プログラミング言語のこと", "B": "開発チームとドメインエキスパートで共有する共通言語", "C": "国際化対応のための多言語サポート", "D": "データベースのクエリ言語"},
+        "correctAnswerKey": "B",
+        "difficulty": "hard"
+      },
+      {
+        "id": 604,
+        "word": "クリーンアーキテクチャ",
+        "questionText": "クリーンアーキテクチャの特徴として正しいものはどれですか？",
+        "options": {"A": "フレームワークに依存する", "B": "ドメインレイヤーが外部に依存する", "C": "依存関係が内側を向く", "D": "UIがビジネスロジックを含む"},
+        "correctAnswerKey": "C",
+        "difficulty": "hard"
+      },
+      {
+        "id": 605,
+        "word": "イベント駆動アーキテクチャ",
+        "questionText": "イベント駆動アーキテクチャの利点でないものはどれですか？",
+        "options": {"A": "コンポーネントの結合度低下", "B": "システムの応答性向上", "C": "デバッグの容易化", "D": "スケーラビリティの向上"},
+        "correctAnswerKey": "C",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "levelId": 7,
+    "levelName": "Level 7: テストと品質保証",
+    "questions": [
+      {
+        "id": 701,
+        "word": "単体テスト",
+        "questionText": "単体テストの主な目的は何ですか？",
+        "options": {"A": "システム全体の動作確認", "B": "個々のコンポーネントの動作確認", "C": "ユーザーインターフェースのテスト", "D": "パフォーマンスの測定"},
+        "correctAnswerKey": "B",
+        "difficulty": "easy"
+      },
+      {
+        "id": 702,
+        "word": "TDD",
+        "questionText": "テスト駆動開発（TDD）の正しい順序はどれですか？",
+        "options": {"A": "実装 → テスト → リファクタリング", "B": "テスト → 実装 → リファクタリング", "C": "設計 → 実装 → テスト", "D": "リファクタリング → テスト → 実装"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 703,
+        "word": "モック",
+        "questionText": "単体テストでモックオブジェクトを使用する主な理由は何ですか？",
+        "options": {"A": "テストの実行速度を上げる", "B": "外部依存を排除してテスト対象を独立させる", "C": "テストカバレッジを増やす", "D": "メモリ使用量を減らす"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 704,
+        "word": "カバレッジ",
+        "questionText": "コードカバレッジ100%が保証するものは何ですか？",
+        "options": {"A": "バグがないこと", "B": "すべてのコードが実行されたこと", "C": "品質が高いこと", "D": "要件を満たしていること"},
+        "correctAnswerKey": "B",
+        "difficulty": "hard"
+      },
+      {
+        "id": 705,
+        "word": "結合テスト",
+        "questionText": "結合テストで検証するものは何ですか？",
+        "options": {"A": "単一関数の動作", "B": "複数コンポーネント間の連携", "C": "ユーザー操作の流れ", "D": "セキュリティ対策"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "levelId": 8,
+    "levelName": "Level 8: プロジェクト管理と開発手法",
+    "questions": [
+      {
+        "id": 801,
+        "word": "アジャイル",
+        "questionText": "アジャイル開発の特徴でないものはどれですか？",
+        "options": {"A": "反復的な開発", "B": "包括的な事前計画", "C": "変化への適応", "D": "顧客協調"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 802,
+        "word": "スクラム",
+        "questionText": "スクラムにおける「スプリント」の説明で正しいものはどれですか？",
+        "options": {"A": "プロジェクト全体の期間", "B": "定期的で時間制限のある開発イテレーション", "C": "バグ修正専用の期間", "D": "設計のみを行う期間"},
+        "correctAnswerKey": "B",
+        "difficulty": "easy"
+      },
+      {
+        "id": 803,
+        "word": "ユーザーストーリー",
+        "questionText": "良いユーザーストーリーの条件を表す「INVEST」の「I」は何を意味しますか？",
+        "options": {"A": "Important", "B": "Independent", "C": "Integrated", "D": "Intelligent"},
+        "correctAnswerKey": "B",
+        "difficulty": "hard"
+      },
+      {
+        "id": 804,
+        "word": "ベロシティ",
+        "questionText": "アジャイル開発における「ベロシティ」の説明で正しいものはどれですか？",
+        "options": {"A": "チームの作業速度", "B": "1スプリントで完了できる作業量の推定値", "C": "コードの品質指標", "D": "バグの発生頻度"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 805,
+        "word": "ふりかえり",
+        "questionText": "スクラムの「スプリントレトロスペクティブ」の主な目的は何ですか？",
+        "options": {"A": "次のスプリントの計画", "B": "プロダクトバックログの精緻化", "C": "開発プロセスの改善", "D": "ステークホルダーへの進捗報告"},
+        "correctAnswerKey": "C",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "levelId": 9,
+    "levelName": "Level 9: フロントエンド技術",
+    "questions": [
+      {
+        "id": 901,
+        "word": "Virtual DOM",
+        "questionText": "Virtual DOMの利点として正しいものはどれですか？",
+        "options": {"A": "メモリ使用量の削減", "B": "DOM操作の最適化によるパフォーマンス向上", "C": "HTMLファイルサイズの減少", "D": "CSSの読み込み時間短縮"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 902,
+        "word": "コンポーネント思考",
+        "questionText": "コンポーネントベースのフロントエンドフレームワークの利点でないものはどれですか？",
+        "options": {"A": "再利用性の向上", "B": "関心の分離", "C": "テスト容易性の向上", "D": "ビルド時間の短縮"},
+        "correctAnswerKey": "D",
+        "difficulty": "medium"
+      },
+      {
+        "id": 903,
+        "word": "状態管理",
+        "questionText": "Reduxのような状態管理ライブラリを使用する主な理由は何ですか？",
+        "options": {"A": "コンポーネントのレンダリング速度向上", "B": "アプリケーション状態の予測可能な管理", "C": "CSSの管理効率化", "D": "API通信の簡素化"},
+        "correctAnswerKey": "B",
+        "difficulty": "hard"
+      },
+      {
+        "id": 904,
+        "word": "レスポンシブデザイン",
+        "questionText": "レスポンシブウェブデザインを実現するためのCSS技術でないものはどれですか？",
+        "options": {"A": "メディアクエリ", "B": "Flexbox", "C": "CSS Grid", "D": "CSS Animations"},
+        "correctAnswerKey": "D",
+        "difficulty": "easy"
+      },
+      {
+        "id": 905,
+        "word": "Webpack",
+        "questionText": "Webpackのようなモジュールバンドラの主な目的は何ですか？",
+        "options": {"A": "コードの圧縮", "B": "複数のファイルを1つにバンドル", "C": "テストの自動化", "D": "デプロイの自動化"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "levelId": 10,
+    "levelName": "Level 10: バックエンド技術",
+    "questions": [
+      {
+        "id": 1001,
+        "word": "API設計",
+        "questionText": "RESTful API設計のベストプラクティスでないものはどれですか？",
+        "options": {"A": "リソース名は複数形を使用", "B": "動詞をURLに含める", "C": "適切なHTTPメソッドの使用", "D": "ステータスコードの適切な使用"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      },
+      {
+        "id": 1002,
+        "word": "ミドルウェア",
+        "questionText": "Webアプリケーションにおけるミドルウェアの役割として正しいものはどれですか？",
+        "options": {"A": "データベース接続管理", "B": "リクエストとレスポンスの処理パイプライン", "C": "フロントエンドのレンダリング", "D": "バッチ処理の実行"},
+        "correctAnswerKey": "B",
+        "difficulty": "hard"
+      },
+      {
+        "id": 1003,
+        "word": "キャッシュ",
+        "questionText": "キャッシュ戦略として適切でないものはどれですか？",
+        "options": {"A": "頻繁に変更されるデータをキャッシュする", "B": "TTL（Time to Live）を設定する", "C": "キャッシュ無効化ポリシーを設ける", "D": "メモリ使用量を監視する"},
+        "correctAnswerKey": "A",
+        "difficulty": "medium"
+      },
+      {
+        "id": 1004,
+        "word": "非同期処理",
+        "questionText": "Node.jsのイベントループに関する説明で正しいものはどれですか？",
+        "options": {"A": "マルチスレッドで動作する", "B": "ブロッキング操作を同期的に処理する", "C": "シングルスレッドで非同期I/Oを処理する", "D": "常にマルチコアを活用する"},
+        "correctAnswerKey": "C",
+        "difficulty": "hard"
+      },
+      {
+        "id": 1005,
+        "word": "メッセージキュー",
+        "questionText": "メッセージキューシステムを導入する主な利点は何ですか？",
+        "options": {"A": "データベースの代わりとなる", "B": "アプリケーション間の非同期通信と負荷分散", "C": "フロントエンドのパフォーマンス向上", "D": "セキュリティの強化"},
+        "correctAnswerKey": "B",
+        "difficulty": "medium"
+      }
+    ]
+  }
+]
